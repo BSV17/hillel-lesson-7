@@ -37,7 +37,7 @@ body {
     margin: 0 auto;
 }
 
-a {
+.link {
     font-weight: 400;
     font-size: 16px;
     margin-right: 42px;
@@ -48,11 +48,11 @@ a {
     text-transform: uppercase;
 }
 
-a.highlighted-link {
+.link.highlighted-link {
     color: #34547A;
 }
 
-a.no-margin,
+.link.no-margin,
 .card.no-margin {
     margin: 0;
 }
@@ -62,14 +62,14 @@ a.no-margin,
     padding: 80px 0 140px;
 }
 
-h1 {
+.main-heading {
     font-weight: 500;
     font-size: 48px;
     margin-top: 160px;
     line-height: 60px;
 }
 
-p {
+.text {
     font-weight: 400;
     font-size: 16px;
     width: 540px;
@@ -78,7 +78,7 @@ p {
     line-height: 26px;
 }
 
-button {
+.button {
     font-weight: 400;
     font-size: 16px;
     padding: 20px 40px;
@@ -97,7 +97,7 @@ button {
     text-align: center;
 }
 
-h3 {
+.intro-heading {
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
@@ -117,7 +117,7 @@ h3 {
     margin-right: 46px;
 }
 
-.card img {
+.card .card-image {
     display: inline-block;
     vertical-align: middle;
 }
@@ -128,7 +128,7 @@ h3 {
     margin-left: 20px;  
 }
 
-.card-text span {
+.card-text .counter {
     font-weight: 500;
     font-size: 21px;
     line-height: 24px;
@@ -140,12 +140,12 @@ h3 {
     text-align: center;
 }
 
-.work p,
-.about p {
+.work .text,
+.about .text {
     margin: 42px auto 0;
 }
 
-video {
+.video {
     width: 1110px;
     height: 624px;
     margin-top: 46px;
@@ -156,14 +156,14 @@ video {
     background-color: #34547A;
 }
 
-h4 {
+.footer-heading {
     font-weight: 500;
     font-size: 21px;
     line-height: 24px;
     color: #FFF;
 }
 
-.footer p {
+.footer .text {
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
